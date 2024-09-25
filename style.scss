@@ -61,171 +61,190 @@ main {
     border: #ff0000 dotted 1px;
   }
 
-  .balonsEnuvens {
-    img {
-      transition: transform 2s ease-out;
-    }
+  // .balonsEnuvens {
+  //   img {
+  //     transition: transform 2s ease-out;
+  //   }
 
-    .balon1 {
-      position: absolute;
-      width: 30%;
-      top: 30%;
-      left: 38%;
+  //   .balon1 {
+  //     position: absolute;
+  //     width: 30%;
+  //     top: 30%;
+  //     left: 38%;
 
-      z-index: 7;
-    }
+  //     z-index: 1;
+  //   }
 
-    .balon2 {
-      position: absolute;
-      opacity: 80%;
-      width: 8%;
-      top: 60%;
-      left: 18%;
+  //   .balon2 {
+  //     position: absolute;
+  //     opacity: 80%;
+  //     width: 8%;
+  //     top: 60%;
+  //     left: 18%;
+  //     z-index: 1;
+  //   }
 
-      z-index: 6;
-    }
+  //   .balon3 {
+  //     position: absolute;
+  //     opacity: 80%;
+  //     width: 10%;
+  //     top: 65%;
+  //     left: 75%;
+  //     z-index: 1;
+  //   }
 
-    .balon3 {
-      position: absolute;
-      opacity: 80%;
-      width: 10%;
-      top: 65%;
-      left: 75%;
-      z-index: 6;
-    }
+  //   .nuvem1 {
+  //     position: absolute;
+  //     // opacity: 80%;
+  //     width: 20%;
+  //     top: 50%;
+  //     left: 34%;
+  //     z-index: 2;
+  //   }
 
-    .nuvem1 {
-      position: absolute;
-      // opacity: 80%;
-      width: 20%;
-      top: 50%;
-      left: 34%;
-      z-index: 7;
-    }
+  //   .nuvem2 {
+  //     position: absolute;
+  //     opacity: 70%;
+  //     width: 20%;
+  //     top: 40%;
+  //     left: 2%;
+  //     z-index: 1;
+  //   }
 
-    .nuvem2 {
-      position: absolute;
-      opacity: 70%;
-      width: 20%;
-      top: 40%;
-      left: 2%;
-      z-index: 7;
-    }
+  //   .nuvem3 {
+  //     position: absolute;
+  //     opacity: 70%;
+  //     width: 35%;
+  //     top: 2%;
+  //     left: 5%;
+  //     z-index: 1;
+  //   }
 
-    .nuvem3 {
-      position: absolute;
-      opacity: 70%;
-      width: 35%;
-      top: 2%;
-      left: 5%;
-      z-index: 7;
-    }
+  //   .nuvem4 {
+  //     position: absolute;
+  //     opacity: 50%;
+  //     width: 10%;
+  //     top: 10%;
+  //     left: 40%;
+  //     z-index: 1;
+  //   }
 
-    .nuvem4 {
-      position: absolute;
-      opacity: 50%;
-      width: 10%;
-      top: 10%;
-      left: 40%;
-      z-index: 7;
-    }
+  //   .nuvem5 {
+  //     position: absolute;
+  //     opacity: 80%;
+  //     width: 8%;
+  //     top: 50%;
+  //     left: 65%;
+  //     z-index: 1;
+  //   }
 
-    .nuvem5 {
-      position: absolute;
-      opacity: 80%;
-      width: 8%;
-      top: 50%;
-      left: 65%;
-      z-index: 7;
-    }
+  //   .nuvem6 {
+  //     position: absolute;
+  //     opacity: 60%;
+  //     width: 40%;
+  //     top: 65%;
+  //     left: 75%;
+  //     z-index: 1;
+  //   }
 
-    .nuvem6 {
-      position: absolute;
-      opacity: 60%;
-      width: 40%;
-      top: 65%;
-      left: 75%;
-      z-index: 7;
-    }
-
-    .nuvem7 {
-      position: absolute;
-      opacity: 60%;
-      width: 40%;
-      top: 5%;
-      left: 80%;
-      z-index: 7;
-    }
-  }
+  //   .nuvem7 {
+  //     position: absolute;
+  //     opacity: 60%;
+  //     width: 40%;
+  //     top: 5%;
+  //     left: 80%;
+  //     z-index: 1;
+  //   }
+  // }
 }
 
 .camada {
   width: 100vw;
   height: 100vh;
+  border: #c300ff dotted 1px;
+  margin-bottom: 10vh;
 }
 
 .curiosidades {
-  display: flex;
-  flex-direction: column;
   width: 100vw;
   height: 80vh;
-  gap: 30px;
-  
+  border: #ff0000 dotted 1px;
+  margin-bottom: 10vh;
 
   h2 {
     display: flex;
+    width: 60%;
     font-size: 2rem;
     justify-content: center;
-    border: #ff0000 dotted 1px;
+    margin-bottom: 20px;
   }
-
-  p {
+  
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
-    font-size: 1.5rem;
-    color: #000000 ;
-    border: #ff0000 dotted 1px;
+    gap: 30px;
+
+    p {
+      display: flex;
+      width: 60%;
+      font-size: 1.5rem;
+      color: #000000 ;
+    }
+
   }
+  
 }
 
 .pilotando {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  width: 100vw;
   height: 80vh;
-  margin-top: 10vh;
-  z-index: 20;
-  gap: 30px;
+  border: #ff0000 dotted 1px;
+  margin-bottom: 10vh;
 
   h2 {
     display: flex;
-    justify-content: center;
+    width: 60%;
     font-size: 2rem;
+    justify-content: center;
+    margin-bottom: 20px;
   }
-
-  p {
-    width: 70%;
+  
+  div{
     display: flex;
-    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 30px;
+
+    p {
+      display: flex;
+      width: 60%;
+      font-size: 1.5rem;
+      color: #000000 ;
+
+    }
   }
 }
 
 .componentes {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  width: 65%;
+  width: 100vw;
   gap: 20px;
-  margin: 100px auto;
+  margin-bottom: 10vh;
 
   div {
     display: flex;
+    width: 40%;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 50px;
+    border: #ff0000 dotted 1px;
 
     h2 {
+      display: flex;
       font-size: 1.5rem;
     }
 
@@ -241,6 +260,7 @@ main {
   p {
     font-size: 1.5rem;
   }
+
 }
 
 .tiposVoos {
@@ -249,7 +269,7 @@ main {
   flex-direction: column;
   width: 65%;
   gap: 20px;
-  margin: 100px auto;
+  margin-bottom: 10vh;
 
   h2 {
     margin-bottom: 30px;
